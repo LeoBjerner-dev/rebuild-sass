@@ -1,0 +1,11 @@
+@use "../abstracts/variables" as *;
+
+footer{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    background-color: $secondary-color;
+    height: 50px;
+    color: rgba(129, 124, 124, 0.683);
+}

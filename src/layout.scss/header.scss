@@ -39,9 +39,9 @@ header {
     li:hover {
       scale: 1.05;
       cursor: pointer;
-
       a {
         text-decoration: underline;
+        color: $primary-color;
       }
     }
   }
@@ -66,9 +66,9 @@ header {
     border: none;
     border-radius: 10px;
 
-    &:hover{
-        scale: 1.05;
-        cursor: pointer;
+    &:hover {
+      scale: 1.05;
+      cursor: pointer;
     }
   }
 

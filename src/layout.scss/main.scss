@@ -1,10 +1,12 @@
+@use "../abstracts/variables" as *;
+
 main {
   min-height: 45vh;
 
   h2 {
     text-align: center;
     padding: 20px 0px;
-    color: rgb(233, 65, 65);
+    color: $primary-color;
   }
   h4 {
     text-align: center;

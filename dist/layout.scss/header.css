@@ -37,6 +37,7 @@ header ul li:hover {
 }
 header ul li:hover a {
   text-decoration: underline;
+  color: rgb(193, 126, 2);
 }
 header #logo-img {
   max-width: 300px;
