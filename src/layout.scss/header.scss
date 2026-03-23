@@ -28,26 +28,55 @@ header {
       border: none;
       border-radius: 10px;
 
-      & a{
+      & a {
         font-size: 1.2rem;
       }
-      &:hover{
+      &:hover {
         scale: 1.05;
         cursor: pointer;
       }
     }
-    li:hover{
-        scale: 1.05;
-        cursor: pointer;
+    li:hover {
+      scale: 1.05;
+      cursor: pointer;
 
-        a{
-            text-decoration: underline;
-        }
+      a {
+        text-decoration: underline;
+      }
     }
   }
 
   #logo-img {
     max-width: 300px;
     max-height: 300px;
+  }
+}
+
+.text-container {
+  margin-left: 20px;
+  max-width: 50%;
+  color: white;
+
+  button {
+    margin-top: 30px;
+    color: white;
+    font-size: 1.2rem;
+    padding: 10px;
+    background-color: $primary-color;
+    border: none;
+    border-radius: 10px;
+
+    &:hover{
+        scale: 1.05;
+        cursor: pointer;
+    }
+  }
+
+  h1 {
+    font-size: 2.5rem;
+  }
+
+  p {
+    font-size: 1.1rem;
   }
 }
