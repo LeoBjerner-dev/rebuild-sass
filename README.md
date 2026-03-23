@@ -79,3 +79,7 @@ Hover på cards (lite “lift”)
 Smooth scroll
 Subtila animationer
 Active state i navbar
+
+
+
+------------------------------------------------------------

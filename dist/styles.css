@@ -15,7 +15,7 @@ header {
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
-  min-height: 50vh;
+  min-height: 55vh;
 }
 header a {
   text-decoration: none;
@@ -77,6 +77,36 @@ header #logo-img {
 }
 .text-container p {
   font-size: 1.1rem;
+}
+
+main {
+  min-height: 45vh;
+}
+main h2 {
+  text-align: center;
+  padding: 20px 0px;
+  color: rgb(233, 65, 65);
+}
+main h4 {
+  text-align: center;
+}
+main .section-container {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  padding-bottom: 50px;
+}
+main .section-container section {
+  max-width: 20%;
+  border-radius: 10px;
+}
+main img {
+  width: 100%;
+  height: 200px;
+  object-fit: contain;
+}
+main img:hover {
+  scale: 1.1;
 }
 
 /*# sourceMappingURL=styles.css.map */
