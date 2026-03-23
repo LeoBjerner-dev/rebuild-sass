@@ -1,0 +1,8 @@
+// HÄR ÄR DIN INPUT DÄR DU SKRIVER SCSS KODEN SOM SKA KOMPILERAS TILL CSS I DIN DIST MAP
+
+// man brukar använda så kallade partials för att skapa olika delar / moduler och importerar in det i "main" styles filen för då behöver vi bara kompilera den main filen.
+
+// SÅHÄR NEDAN IMPORTERAR MAN FILER
+
+@use "./abstracts/variables.scss" as *;
+
