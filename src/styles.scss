@@ -4,5 +4,7 @@
 
 // SÅHÄR NEDAN IMPORTERAR MAN FILER
 
+@use "./pages.scss/homepage.scss" as*;
+@use "./layout.scss/header.scss" as *;
 @use "./abstracts/variables.scss" as *;
 

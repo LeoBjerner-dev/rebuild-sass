@@ -1,0 +1,9 @@
+header {
+  background-image: url(/images/header.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  min-height: 50vh;
+}
+
+/*# sourceMappingURL=header.css.map */

@@ -1,0 +1,53 @@
+@use "../abstracts/variables" as *;
+
+header {
+  padding-top: 10px;
+  background-image: url(/images/header.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  min-height: 50vh;
+
+  & a {
+    text-decoration: none;
+    color: white;
+  }
+
+  ul {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    list-style: none;
+
+    & button {
+      margin-left: auto;
+      margin-right: 20px;
+
+      padding: 10px;
+      background-color: $primary-color;
+      border: none;
+      border-radius: 10px;
+
+      & a{
+        font-size: 1.2rem;
+      }
+      &:hover{
+        scale: 1.05;
+        cursor: pointer;
+      }
+    }
+    li:hover{
+        scale: 1.05;
+        cursor: pointer;
+
+        a{
+            text-decoration: underline;
+        }
+    }
+  }
+
+  #logo-img {
+    max-width: 300px;
+    max-height: 300px;
+  }
+}
