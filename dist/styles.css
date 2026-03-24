@@ -39,7 +39,7 @@ header ul button a {
   font-size: 1.2rem;
 }
 header ul button:hover {
-  scale: 1.05;
+  scale: 1.1;
   cursor: pointer;
 }
 header ul li:hover {
@@ -53,6 +53,9 @@ header ul li:hover a {
 header #logo-img {
   max-width: 300px;
   max-height: 300px;
+}
+header #menu-img {
+  display: none;
 }
 
 .text-container {
@@ -80,6 +83,24 @@ header #logo-img {
   font-size: 1.1rem;
 }
 
+@media (max-width: 715px) {
+  header li {
+    display: none;
+  }
+  .order-btn {
+    display: none;
+  }
+  header #menu-img {
+    margin-left: auto;
+    padding-right: 10px;
+    width: 3rem;
+    display: block;
+  }
+  header #menu-img:hover {
+    scale: 1.1;
+    cursor: pointer;
+  }
+}
 main {
   min-height: 45vh;
 }

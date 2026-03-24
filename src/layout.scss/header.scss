@@ -32,7 +32,7 @@ header {
         font-size: 1.2rem;
       }
       &:hover {
-        scale: 1.05;
+        scale: 1.1;
         cursor: pointer;
       }
     }
@@ -49,6 +49,9 @@ header {
   #logo-img {
     max-width: 300px;
     max-height: 300px;
+  }
+  #menu-img {
+    display: none;
   }
 }
 
@@ -79,4 +82,27 @@ header {
   p {
     font-size: 1.1rem;
   }
+}
+
+@media (max-width: 715px) {
+  header li {
+    display: none;
+  }
+  .order-btn {
+    display: none;
+  }
+
+  header{
+  #menu-img {
+    margin-left: auto;
+    padding-right: 10px;
+    width: 3rem;
+    display: block;
+
+    &:hover {
+      scale: 1.1;
+      cursor: pointer;
+    }
+  }
+}
 }
