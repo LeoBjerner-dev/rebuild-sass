@@ -83,3 +83,9 @@ Active state i navbar
 
 
 ------------------------------------------------------------
+
+Ändringar jag gjort:
+
+1. På deras hemsida så hade de bara en container med text och knappar som "hero section" / main section. Jag ändrade så att det istället visar deras toppsäljare och delade upp så att man kan beställa och se menyn direkt i headern istället.
+
+2. Jag behöll deras färger och logga men tog bort vissa saker som deras karta och valde att lägga kontaktuppgifter i en separat "kontakt" flik i nav, jag gjorde det för att det kändes som att det tog upp onödig plats.
